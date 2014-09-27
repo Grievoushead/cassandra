@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeListener", "SkypeListener\SkypeListener.csproj", "{C5DAA9D5-B251-4250-8D9A-1625B208E916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI", "DI\DI.csproj", "{D6EC0062-AD51-44C4-A5CE-158CF70502A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E909653F-DAA8-48BF-B38C-5C62C1A5F5AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commands Interpreters", "Commands Interpreters", "{4002B267-6E1E-4048-9673-39D06A255283}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contract", "Contract\Contract.csproj", "{86122CD1-BE89-47BC-BA3F-6781047BF076}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{717EB256-7012-4CD7-92F0-A6D25137A8E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Minfin", "Minfin", "{B48159BB-536B-4A9F-A4FB-B25CF65ECE3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minfin.mb", "Minfin.mb\Minfin.mb.csproj", "{A575DA93-DCDD-4E9F-B023-6718F92824F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5DAA9D5-B251-4250-8D9A-1625B208E916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5DAA9D5-B251-4250-8D9A-1625B208E916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5DAA9D5-B251-4250-8D9A-1625B208E916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5DAA9D5-B251-4250-8D9A-1625B208E916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6EC0062-AD51-44C4-A5CE-158CF70502A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6EC0062-AD51-44C4-A5CE-158CF70502A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6EC0062-AD51-44C4-A5CE-158CF70502A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6EC0062-AD51-44C4-A5CE-158CF70502A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86122CD1-BE89-47BC-BA3F-6781047BF076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86122CD1-BE89-47BC-BA3F-6781047BF076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86122CD1-BE89-47BC-BA3F-6781047BF076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86122CD1-BE89-47BC-BA3F-6781047BF076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{717EB256-7012-4CD7-92F0-A6D25137A8E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{717EB256-7012-4CD7-92F0-A6D25137A8E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{717EB256-7012-4CD7-92F0-A6D25137A8E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{717EB256-7012-4CD7-92F0-A6D25137A8E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A575DA93-DCDD-4E9F-B023-6718F92824F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A575DA93-DCDD-4E9F-B023-6718F92824F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A575DA93-DCDD-4E9F-B023-6718F92824F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A575DA93-DCDD-4E9F-B023-6718F92824F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6EC0062-AD51-44C4-A5CE-158CF70502A0} = {E909653F-DAA8-48BF-B38C-5C62C1A5F5AC}
+		{86122CD1-BE89-47BC-BA3F-6781047BF076} = {E909653F-DAA8-48BF-B38C-5C62C1A5F5AC}
+		{717EB256-7012-4CD7-92F0-A6D25137A8E7} = {E909653F-DAA8-48BF-B38C-5C62C1A5F5AC}
+		{B48159BB-536B-4A9F-A4FB-B25CF65ECE3D} = {4002B267-6E1E-4048-9673-39D06A255283}
+		{A575DA93-DCDD-4E9F-B023-6718F92824F0} = {B48159BB-536B-4A9F-A4FB-B25CF65ECE3D}
+	EndGlobalSection
+EndGlobal
